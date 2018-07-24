@@ -6,18 +6,23 @@ import { NgxsReduxDevtoolsPluginModule } from '@ngxs/devtools-plugin';
 import { NgxsFormPluginModule } from '@ngxs/form-plugin';
 
 import { AppComponent } from './app.component';
-import { MaterialModule } from './shared/material.module';
+import { MaterialModule, AppMaterialModule } from './shared/material.module';
 import { environment } from '../environments/environment';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormState } from './app.state';
+import { ImagesComponent } from './images/images.component';
+import { AppRoutingModule } from './app-roouting.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ImagesComponent
   ],
   imports: [
     BrowserModule,
     MaterialModule,
+    AppRoutingModule,
+    AppMaterialModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
     NgxsModule.forRoot([FormState]),

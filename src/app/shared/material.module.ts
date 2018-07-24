@@ -93,3 +93,66 @@ export class MaterialModule {
     };
   }
 }
+import {
+  MdcAppBarModule,
+  MdcButtonModule,
+  MdcCardModule,
+  MdcChipsModule,
+  MdcCheckboxModule,
+  MdcDialogModule,
+  MdcDrawerModule,
+  MdcElevationModule,
+  MdcFabModule,
+  MdcFormFieldModule,
+  MdcGridListModule,
+  MdcIconModule,
+  MdcIconToggleModule,
+  MdcImageListModule,
+  MdcLinearProgressModule,
+  MdcListModule,
+  MdcMenuModule,
+  MdcRadioModule,
+  MdcRippleModule,
+  MdcSelectModule,
+  MdcSliderModule,
+  MdcSnackbarModule,
+  MdcSwitchModule,
+  MdcTextFieldModule,
+  MdcThemeModule,
+  MdcToolbarModule,
+  MdcTypographyModule,
+} from '@angular-mdc/web';
+
+@NgModule({
+  exports: [
+    MdcAppBarModule,
+    MdcButtonModule,
+    MdcCardModule,
+    MdcChipsModule,
+    MdcCheckboxModule,
+    MdcDialogModule,
+    MdcDrawerModule,
+    MdcGridListModule,
+    MdcElevationModule,
+    MdcFabModule,
+    MdcFormFieldModule,
+    MdcIconModule,
+    MdcIconToggleModule,
+    MdcImageListModule,
+    MdcLinearProgressModule,
+    MdcListModule,
+    MdcMenuModule,
+    MdcRadioModule,
+    MdcRippleModule,
+    MdcSelectModule,
+    MdcSliderModule,
+    MdcSnackbarModule,
+    MdcSwitchModule,
+    MdcTextFieldModule,
+    MdcThemeModule,
+    MdcToolbarModule,
+    MdcTypographyModule,
+  ]
+})
+export class AppMaterialModule { }
+
