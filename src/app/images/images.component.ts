@@ -6,7 +6,14 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   styleUrls: ['./images.component.scss']
 })
 export class ImagesComponent implements OnInit {
-
+  world: string;
+  world2: string;
+      sayhello(i){
+                 this.world=i
+                 }
+                 sayhelloo(i){
+                  this.world2=i+1
+                  }
   constructor() { }
   images = Array.from(Array(15), (x, i) => i);
 

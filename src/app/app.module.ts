@@ -13,10 +13,11 @@ import { FormState } from './app.state';
 import { ImagesComponent } from './images/images.component';
 import { AppRoutingModule } from './app-roouting.module';
 
+
 @NgModule({
   declarations: [
     AppComponent,
-    ImagesComponent
+    ImagesComponent,
   ],
   imports: [
     BrowserModule,
